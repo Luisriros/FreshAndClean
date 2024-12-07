@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Fresh & Clean</title>
+  <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Contacto</h1>
+      <p>Estamos aquí para ayudarte</p>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="historia.html">Acerca de Nosotros</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2>Envíanos un mensaje</h2>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+
+        <button type="submit" class="submit-button">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <h2>Contacto</h2>
+    <p>📍 Dirección: Calle Principal #123, Veracruz, México</p>
+    <p>📞 Teléfono: (229) 123-4567</p>
+    <p>📧 Email:    manuelRivera@freshandclean.com</p>
+  </footer>
+</body>
+</html>
