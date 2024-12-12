@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a.active {
+    color: #4caf50;
+  }
+  
+  .navbar ul li a:hover {
+    color: #4caf50;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
